@@ -1,0 +1,15 @@
+/common
+/getting_started
+/kv260
+/pynq_composable
+/pynq_peripherals
+/pynq-dpu
+/pynq-helloworld
+*.bit
+*.hwh
+BaesOvrLearning.ipynb
+Welcome to Pynq.ipynb
+.ipynb_checkpoints/
+.pynq-notebooks
+.gitignore.swp
+/KriaExamples
