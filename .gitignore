@@ -13,3 +13,5 @@ Welcome to Pynq.ipynb
 .pynq-notebooks
 .gitignore.swp
 /KriaExamples
+repo-key
+repo-key.pub
