@@ -22,3 +22,19 @@ un overlay consiste de un archivo .bit que es la informacion que usa pynq para p
 y un archivo hwh, que contiene la informacion de hardware que pynq necesita para saber como esta constituido
 el hardware, ip's registros, clocks, interrupciones etcetera
 
+
+## Hacer respaldo de un proyecto de vivado (Overlay Hardware)
+
+
+
+```
+write_project_tcl -force ../scripts/main.tcl
+```
+
+organizar el proyect folder para que se vea asi:
+
+./ 
+├── scripts/
+│    └── main.tcl
+└── ip/
+     └── [Packaged HLS IP files and folders]
