@@ -11,4 +11,8 @@ Para la comunicacion por axi4 se debe agregar un puerto axi slave ademas del que
 en este ejemplo se bisca ilustrar como es el envio y recepcion de datos por axi4 mientras al mismo tiempo se tiene
 presente que el tipo de dato tambien es importante (como se ilustra en el ejemplo del scalar multiplier), en este caso float32.
 
-<img src="" width='70' />
+<img src="https://github.com/raulest50/Pynq-kv260-Kria-BOK/blob/main/array_gain_test/array_gain_circuit.PNG?raw=true" width='70' />
+
+> **WARNING**:
+array_gain.ipynb funciona perfectamente pero los otros 2 noteboos que intentan hacer uso de interrupciones no han funcionado hasta
+la fecha, se dejan como referencia solamente.

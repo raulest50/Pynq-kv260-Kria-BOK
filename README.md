@@ -33,8 +33,10 @@ write_project_tcl -force ../scripts/main.tcl
 
 organizar el proyect folder para que se vea asi:
 
+```
 ./ 
-├── scripts/
-│    └── main.tcl
-└── ip/
-     └── [Packaged HLS IP files and folders]
+├── scripts/ 
+│    └── main.tcl 
+└── ip/ 
+     └── [Packaged HLS IP files and folders] 
+```
