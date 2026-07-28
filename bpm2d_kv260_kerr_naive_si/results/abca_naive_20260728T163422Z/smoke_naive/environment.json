@@ -1,0 +1,156 @@
+{
+  "artifacts_sha256": {
+    "bpm2d_kv260_kerr_naive_si.bit": "c296fb59967275d451ac7ae0561cf31a81cecc97a7158a7c4f5a22f4920deabc",
+    "bpm2d_kv260_kerr_naive_si.hwh": "29764e2f6e1e799386cf9ce57a5f45f842d3cf19e987f6fbffd2e49a05289c42",
+    "bpm2d_kv260_kerr_naive_si.xclbin": "8d35240ad418807341a0a4e6fa6747849f35c30ccc341cc85ab5630c80e6e523"
+  },
+  "cpu_frequencies_khz": {
+    "cpu0": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu1": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu2": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu3": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    }
+  },
+  "cpu_frequencies_khz_final": {
+    "cpu0": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu1": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu2": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu3": {
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    }
+  },
+  "cpu_governors": {
+    "cpu0": "userspace",
+    "cpu1": "userspace",
+    "cpu2": "userspace",
+    "cpu3": "userspace"
+  },
+  "effective_pl_clock_mhz": 124.99875,
+  "fpga_manager_state_final": "operating",
+  "fpga_manager_state_initial": "operating",
+  "hostname": "kria",
+  "ip_name": "a",
+  "ip_vlnv": "fotonica109:hls:bpm2d_kv260_m_axi_kerr_naive_si:1.0",
+  "load_average_final": [
+    1.64453125,
+    1.48828125,
+    1.23486328125
+  ],
+  "load_average_initial": [
+    1.57958984375,
+    1.47021484375,
+    1.22607421875
+  ],
+  "memory_kb_final": {
+    "CmaFree": 1014236,
+    "CmaTotal": 1024000,
+    "MemAvailable": 3285104,
+    "MemFree": 2343452,
+    "MemTotal": 4004540,
+    "SwapFree": 0,
+    "SwapTotal": 0
+  },
+  "memory_kb_initial": {
+    "CmaFree": 1007676,
+    "CmaTotal": 1024000,
+    "MemAvailable": 3278972,
+    "MemFree": 2338084,
+    "MemTotal": 4004540,
+    "SwapFree": 0,
+    "SwapTotal": 0
+  },
+  "numpy": "1.26.4",
+  "overlay_load_s": 1.782046298,
+  "pl_clocks_mhz": {
+    "fclk0_mhz": 124.99875,
+    "fclk1_mhz": 149.9985,
+    "fclk2_mhz": 99.999,
+    "fclk3_mhz": 99.999
+  },
+  "platform": {
+    "machine": "aarch64",
+    "node": "kria",
+    "processor": "aarch64",
+    "release": "5.15.0-1070-xilinx-zynqmp",
+    "system": "Linux",
+    "version": "#74-Ubuntu SMP Thu Apr 30 07:43:29 UTC 2026"
+  },
+  "pynq": "3.0.1",
+  "python": "3.10.12",
+  "reference_metadata": {
+    "alpha_per_m": 300.0,
+    "beta_m_per_w": 9.999999960041972e-12,
+    "correlation_length_m": 4.999999873689376e-06,
+    "dx_m": 7.031250106592779e-07,
+    "dy_m": 7.031250106592779e-07,
+    "dz_m": 9.999999974752427e-07,
+    "k_per_m": 10681416.0,
+    "kerr": "enabled",
+    "layout": "row-major",
+    "mask_filter_mode": "reflect",
+    "mask_location": "PS after updates 120, 240, and 360",
+    "mask_seeds": [
+      43,
+      44,
+      45
+    ],
+    "mask_sigma_pixels": 7.111110687255859,
+    "n": 64,
+    "n2_m2_per_w": 2.9999999047965676e-20,
+    "name": "BPM 2D 64x64 Kerr Fast SI reference",
+    "segments": 3,
+    "sigma_phase_rad": 19.226547241210938,
+    "steps_per_segment": 120,
+    "total_updates": 360
+  },
+  "target_pl_clock_mhz": 125.0,
+  "temperature_monitoring": {
+    "available": false,
+    "sources_checked": [
+      "/sys/class/thermal/thermal_zone*/temp",
+      "/sys/class/hwmon/hwmon*/temp*_input",
+      "/sys/bus/iio/devices/*/*temp*",
+      "xbutil examine reports"
+    ]
+  },
+  "temperatures_c_final": {},
+  "temperatures_c_initial": {},
+  "timestamp_utc": "2026-07-28T16:34:45.493239+00:00"
+}

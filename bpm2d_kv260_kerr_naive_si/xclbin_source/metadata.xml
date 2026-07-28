@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="binary_container_1">
+  <platform vendor="xilinx" boardid="zcu111" name="name" featureRomTime="0">
+    <version major="0" minor="1"/>
+    <description/>
+    <board name="xilinx.com:zcu111:1.4"
+            vendor="xilinx.com" fpga="xczu28dr-ffvg1517-2-e">
+      <interfaces/>
+      <memories>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+        <memory name="ddr4_0" type="ddr4" size="4GB"/>
+      </memories>
+      <images>
+        <image name="zcu111_board.jpeg" type="HDPI"/>
+        <image name="" type="MDPI"/>
+        <image name="" type="LDPI"/>
+      </images>
+      <id>
+        <vendor/>
+        <device/>
+        <subsystem/>
+      </id>
+    </board>
+    <build_flow/>
+    <host architecture="unknown"/>
+    <device name="fpga0" fpgaDevice="zynquplusRFSOC:xczu28dr:ffvg1517:-2:e"
+            addrWidth="0">
+      <core name="OCL_REGION_0" target="bitstream" type="clc_region"
+            clockFreq="0MHz" numComputeUnits="60">
+        <kernelClocks>
+          <clock port="KERNEL_CLK" frequency="333.250000MHz"/>
+          <clock port="DATA_CLK" frequency="99.999001MHz"/>
+        </kernelClocks>
+      </core>
+    </device>
+  </platform>
+</project>

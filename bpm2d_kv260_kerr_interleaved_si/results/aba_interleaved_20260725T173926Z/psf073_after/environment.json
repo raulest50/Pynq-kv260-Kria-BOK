@@ -1,0 +1,84 @@
+{
+  "artifacts_sha256": {
+    "bpm2d_kv260_kerr_fast_si.bit": "2bb501a9ba63a9bff986c6eea2818d6a50dd909824dbf8aabd1f6cdc15b811ca",
+    "bpm2d_kv260_kerr_fast_si.hwh": "258660101ff3ef1edea96b51602d4f8335758b37bb3cfdfec55c3504ae31d7e7",
+    "bpm2d_kv260_kerr_fast_si.xclbin": "6bdd4c65910e8ec42cb9a3b926fc0fb3055a133c07c2a6a091bd749905d28ff9"
+  },
+  "cpu_governors": {
+    "cpu0": "userspace",
+    "cpu1": "userspace",
+    "cpu2": "userspace",
+    "cpu3": "userspace"
+  },
+  "effective_pl_clock_mhz": 124.99875,
+  "hostname": "kria",
+  "ip_name": "a",
+  "ip_vlnv": "fotonica109:hls:bpm2d_kv260_m_axi_kerr_fast_si:1.0",
+  "load_average_final": [
+    1.97802734375,
+    1.5634765625,
+    1.23828125
+  ],
+  "load_average_initial": [
+    1.916015625,
+    1.4345703125,
+    1.1708984375
+  ],
+  "numpy": "1.26.4",
+  "overlay_load_s": 1.383669811,
+  "pl_clocks_mhz": {
+    "fclk0_mhz": 124.99875,
+    "fclk1_mhz": 149.9985,
+    "fclk2_mhz": 99.999,
+    "fclk3_mhz": 99.999
+  },
+  "platform": {
+    "machine": "aarch64",
+    "node": "kria",
+    "processor": "aarch64",
+    "release": "5.15.0-1070-xilinx-zynqmp",
+    "system": "Linux",
+    "version": "#74-Ubuntu SMP Thu Apr 30 07:43:29 UTC 2026"
+  },
+  "pynq": "3.0.1",
+  "python": "3.10.12",
+  "reference_metadata": {
+    "alpha_per_m": 300.0,
+    "beta_m_per_w": 9.999999960041972e-12,
+    "correlation_length_m": 4.999999873689376e-06,
+    "dx_m": 7.031250106592779e-07,
+    "dy_m": 7.031250106592779e-07,
+    "dz_m": 9.999999974752427e-07,
+    "k_per_m": 10681416.0,
+    "kerr": "enabled",
+    "layout": "row-major",
+    "mask_filter_mode": "reflect",
+    "mask_location": "PS after updates 120, 240, and 360",
+    "mask_seeds": [
+      43,
+      44,
+      45
+    ],
+    "mask_sigma_pixels": 7.111110687255859,
+    "n": 64,
+    "n2_m2_per_w": 2.9999999047965676e-20,
+    "name": "BPM 2D 64x64 Kerr Fast SI reference",
+    "segments": 3,
+    "sigma_phase_rad": 19.226547241210938,
+    "steps_per_segment": 120,
+    "total_updates": 360
+  },
+  "target_pl_clock_mhz": 125.0,
+  "temperature_monitoring": {
+    "available": false,
+    "sources_checked": [
+      "/sys/class/thermal/thermal_zone*/temp",
+      "/sys/class/hwmon/hwmon*/temp*_input",
+      "/sys/bus/iio/devices/*/*temp*",
+      "xbutil examine reports"
+    ]
+  },
+  "temperatures_c_final": {},
+  "temperatures_c_initial": {},
+  "timestamp_utc": "2026-07-25T17:41:28.283502+00:00"
+}

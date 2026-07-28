@@ -1,0 +1,86 @@
+{
+  "cpu": {
+    "cpu0": {
+      "governor": "userspace",
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu1": {
+      "governor": "userspace",
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu2": {
+      "governor": "userspace",
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    },
+    "cpu3": {
+      "governor": "userspace",
+      "scaling_cur_freq": 1333333,
+      "scaling_max_freq": 1333333,
+      "scaling_min_freq": 333333,
+      "scaling_setspeed": 1333333
+    }
+  },
+  "fpga_manager_state": "operating",
+  "hostname": "kria",
+  "jupyter_service": "active",
+  "load_average": [
+    1.26220703125,
+    1.1298828125,
+    1.04443359375
+  ],
+  "memory_kb": {
+    "CmaFree": 1014300,
+    "CmaTotal": 1024000,
+    "MemAvailable": 3207108,
+    "MemFree": 2322596,
+    "MemTotal": 4004540,
+    "SwapFree": 0,
+    "SwapTotal": 0
+  },
+  "numpy": "1.26.4",
+  "packages": {
+    "interleaved": {
+      "artifacts_sha256": {
+        "SHA256SUMS.txt": "d2ebfc07a7eeea19deed5a52f45477159e2918722c615fdd471ee55124c065f7",
+        "bpm2d_kv260_kerr_interleaved_si.bit": "0a14fd9e00ccdb420228471925b49c1962b071e1396b5795a42e511191a266ef",
+        "bpm2d_kv260_kerr_interleaved_si.hwh": "7d04b6f193d89793fac5bdc1d2d2a76254a2eae59989fd97344349fd5e555e1d",
+        "bpm2d_kv260_kerr_interleaved_si.xclbin": "6fcdef61b8958d4f12d88a41c869b91e38c552062bd5282f29b0268bb37ffac7"
+      },
+      "path": "/home/ubuntu/jupyter_notebooks/bpm2d_kv260_kerr_interleaved_si"
+    },
+    "psf073": {
+      "artifacts_sha256": {
+        "SHA256SUMS.txt": "ed8713dfe6f6ece388ed47220bcdaf18f62f9356a645084a09f2b9c582096b69",
+        "bpm2d_kv260_kerr_fast_si.bit": "2bb501a9ba63a9bff986c6eea2818d6a50dd909824dbf8aabd1f6cdc15b811ca",
+        "bpm2d_kv260_kerr_fast_si.hwh": "258660101ff3ef1edea96b51602d4f8335758b37bb3cfdfec55c3504ae31d7e7",
+        "bpm2d_kv260_kerr_fast_si.xclbin": "6bdd4c65910e8ec42cb9a3b926fc0fb3055a133c07c2a6a091bd749905d28ff9"
+      },
+      "path": "/home/ubuntu/jupyter_notebooks/bpm2d_kv260_kerr_fast_si"
+    }
+  },
+  "pl_clocks_mhz": {
+    "fclk0_mhz": 99.999,
+    "fclk1_mhz": 99.999,
+    "fclk2_mhz": 9.374906,
+    "fclk3_mhz": 9.374906
+  },
+  "platform": {
+    "machine": "aarch64",
+    "node": "kria",
+    "release": "5.15.0-1070-xilinx-zynqmp",
+    "system": "Linux",
+    "version": "#74-Ubuntu SMP Thu Apr 30 07:43:29 UTC 2026"
+  },
+  "pynq": "3.0.1",
+  "python": "3.10.12",
+  "timestamp_utc": "2026-07-25T17:39:27.004617+00:00"
+}

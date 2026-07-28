@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+results/*
+!results/.gitkeep
+!results/aba_interleaved_20260725T173926Z/
+!results/aba_interleaved_20260725T173926Z/**

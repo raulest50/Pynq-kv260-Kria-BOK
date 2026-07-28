@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "stages": {
+    "120_post_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.3564118670096613,
+      "passed": true,
+      "peak_reference_magnitude": 35638.733120684316,
+      "peak_relative_error": 1.000068845889485e-05,
+      "relative_l2": 8.425385849317452e-06,
+      "rms_absolute": 0.0680616975337784
+    },
+    "120_pre_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.3570067282504817,
+      "passed": true,
+      "peak_reference_magnitude": 35638.73403197161,
+      "peak_relative_error": 1.001737962774463e-05,
+      "relative_l2": 8.427981438658676e-06,
+      "rms_absolute": 0.06808266505648504
+    },
+    "240_post_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.3444100026032758,
+      "passed": true,
+      "peak_reference_magnitude": 17495.119907817196,
+      "peak_relative_error": 1.9686061279830725e-05,
+      "relative_l2": 1.690549329899249e-05,
+      "rms_absolute": 0.13395493653432897
+    },
+    "240_pre_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.34396918851350183,
+      "passed": true,
+      "peak_reference_magnitude": 17495.11981192016,
+      "peak_relative_error": 1.966086498471083e-05,
+      "relative_l2": 1.6905957566822864e-05,
+      "rms_absolute": 0.1339586153393234
+    },
+    "360_post_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.37165356622937934,
+      "passed": true,
+      "peak_reference_magnitude": 13702.997800306202,
+      "peak_relative_error": 2.712206275192385e-05,
+      "relative_l2": 2.5545232541904217e-05,
+      "rms_absolute": 0.18931172733662072
+    },
+    "360_pre_mask": {
+      "finite": true,
+      "limits": {
+        "peak_relative_error": 0.01,
+        "relative_l2": 0.001
+      },
+      "max_absolute": 0.3704288549352516,
+      "passed": true,
+      "peak_reference_magnitude": 13702.997468965008,
+      "peak_relative_error": 2.703268797751812e-05,
+      "relative_l2": 2.5543440850194138e-05,
+      "rms_absolute": 0.18929844948956767
+    }
+  }
+}

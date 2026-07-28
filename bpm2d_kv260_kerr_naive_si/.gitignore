@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+results/*
+!results/.gitkeep
+!results/abca_naive_20260728T163422Z/
+!results/abca_naive_20260728T163422Z/**

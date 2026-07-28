@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/*
+!results/.gitkeep
+!results/official_125mhz_20260724T2317Z/
+!results/official_125mhz_20260724T2317Z/**
+!results/official_125mhz_20260724T2317Z.console.log
